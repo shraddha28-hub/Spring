@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans-4.3.xsd">
+
+<!-- Configuration bean file -->
+<bean id="stud" class="com.nt.comp.Student">
+<property name="sno" value="1001"/>
+<property name="sname" value="pooja"/>
+
+<!-- <constructor-arg value="1001"/>
+<constructor-arg value="neha"/>
+<constructor-arg value="hyd"/>
+<constructor-arg value="56.77f"/>  -->
+
+</bean>
+</beans>
