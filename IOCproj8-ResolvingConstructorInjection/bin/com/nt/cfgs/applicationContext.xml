@@ -3,11 +3,25 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans-4.3.xsd">
 
-<!-- Configuration class object -->
-<bean id="mrk" class="com.nt.beans.Marks">
-<constructor-arg index="2" value="90"/>
-<constructor-arg value="45"/>
-<constructor-arg value="56"/>
+	<!-- Configuration class object -->
+	<bean id="mrk" class="com.nt.beans.Marks">
+		<constructor-arg index="2" value="90" />
+		<constructor-arg value="45" />
+		<constructor-arg value="56" />
 
-</bean>
+	</bean>
+	<bean id="emp" class="com.nt.beans.Employee">
+		<constructor-arg value="45.66" type="float" />
+		<constructor-arg value="neha" type="java.lang.String" />
+		<constructor-arg value="56" type="int" />
+		
+	</bean>
+	
+
+	<bean id="stud" class="com.nt.beans.Student">
+		<constructor-arg name="sid" value="101" />
+		<constructor-arg name="sname" value="neha"/>
+		<constructor-arg name="total" value="5600"/>
+		<constructor-arg name="sadd" value="indore"/>
+	</bean>
 </beans>
