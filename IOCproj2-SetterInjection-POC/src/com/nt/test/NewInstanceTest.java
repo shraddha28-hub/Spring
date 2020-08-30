@@ -13,7 +13,7 @@ public class NewInstanceTest {
 			System.out.println(obj1);
 			
 			System.out.println("....................................");
-	       c2=Class.forName(args[1]);
+	      c2=Class.forName(args[1]);
 			obj2=c2.newInstance();
 	       System.out.println(obj2);
 		}//end try
